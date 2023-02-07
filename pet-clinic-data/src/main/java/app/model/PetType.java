@@ -1,4 +1,4 @@
-package model;
+package app.model;
 
 public class PetType extends BaseEntity {
     private String name;

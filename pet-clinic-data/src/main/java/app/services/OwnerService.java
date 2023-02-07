@@ -1,6 +1,6 @@
-package services;
+package app.services;
 
-import model.Owner;
+import app.model.Owner;
 
 public interface OwnerService extends CrudService<Owner, Long> {
     Owner findByLastName(String lastName);

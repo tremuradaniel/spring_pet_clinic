@@ -1,6 +1,6 @@
-package services;
+package app.services;
 
-import model.Vet;
+import app.model.Vet;
 
 public interface VetService extends CrudService<Vet, Long> {
 }
